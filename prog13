@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline & Internal CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+    }
+    .internal-box {
+      color: white;
+      background-color: #4CAF50;
+      padding: 15px;
+      margin: 10px auto;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="color: blue;">Welcome to My Page</h1> <!-- Inline style -->
+
+  <div class="internal-box">Styled with Internal CSS</div>
+
+  <p style="font-style: italic; color: gray;">This paragraph uses inline styling.</p>
+
+</body>
+</html>
