@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Employee Details</title>
+</head>
+<body>
+ <form action="EmployeeServlet" method="post">
+ Name: <input type="text" name="ename"><br>
+ Department: <input type="text" name="edept"><br>
+ Employee ID: <input type="text" name="eid"><br>
+ <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
